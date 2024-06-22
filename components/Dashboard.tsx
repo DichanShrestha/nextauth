@@ -1,3 +1,4 @@
+
 "use client";
 import { signIn, useSession } from "next-auth/react";
 import React from "react";
@@ -22,7 +23,7 @@ const Dashboard = () => {
 					</button>
 					<button
 						className="text-5 border rounded my-3"
-						onClick={() => signIn("google")}
+						onClick={() => signIn("github")}
 					>
 						Sign in with Github
 					</button>
